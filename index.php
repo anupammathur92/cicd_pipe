@@ -6,10 +6,10 @@ require __DIR__ . '/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account SID and Auth Token from twilio.com/console
-$sid = 'AC912fd9532bf6ff017e8c182b0be6a3fb';
-$sid = 'AC7c0e323b4e95b86c4c80c3a25a35ec1b';
-$token = '656eef05d369d254fb65cd72089541d6';
-$token = '3eff5af3d284b778f333bb7b6f74f87a';
+$sid = 'qwerty';
+$sid = 'qwerty';
+$token = 'qwerty';
+$token = 'qwerty';
 $client = new Client($sid, $token);
 echo "<pre>"; print_r($client); echo "</pre>"; //die;
 // Use the client to do fun stuff like send text messages!
